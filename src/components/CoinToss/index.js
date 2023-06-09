@@ -36,13 +36,13 @@ class CoinToss extends Component {
           {imageStatus ? (
             <img
               src="https://assets.ccbp.in/frontend/react-js/heads-img.png"
-              alt="heads"
+              alt="toss result"
               className="heads-img"
             />
           ) : (
             <img
               src="https://assets.ccbp.in/frontend/react-js/tails-img.png"
-              alt="tails"
+              alt="toss result"
               className="tails-img"
             />
           )}
@@ -54,9 +54,9 @@ class CoinToss extends Component {
             Toss Coin
           </button>
           <div className="statics-container">
-            <p>Total:{total}</p>
-            <p>Head:{heads}</p>
-            <p>Tails:{tails}</p>
+            <p>Total: {total}</p>
+            <p>Heads: {heads}</p>
+            <p>Tails: {tails}</p>
           </div>
         </div>
       </div>
