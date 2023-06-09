@@ -1,1 +1,62 @@
 /* Write your CSS here */
+.app-container {
+  background-image: linear-gradient(to right, #f9d423, #b87b1a);
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.bg-container {
+  background-color: #ffffff;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 12px;
+  width: 400px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.heads-img {
+  height: 200px;
+  width: 200px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.tails-img {
+  height: 200px;
+  width: 200px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.heading {
+  color: #a35200;
+}
+.description {
+  font-weight: 500;
+}
+
+.toss-coin-btn {
+  background-color: #f9d423;
+  border: none;
+  outline: none;
+  color: #a35200;
+  padding: 10px;
+  padding-right: 20px;
+  padding-left: 20px;
+  border-radius: 8px;
+  font-weight: 600;
+}
+
+.statics-container {
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+  margin-top: 30px;
+  font-weight: 500;
+}
